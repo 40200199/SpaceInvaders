@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6801109863848157136
+--- !u!1 &2049887344460169828
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9023342515860092397}
-  - component: {fileID: 3242906070101617164}
-  - component: {fileID: 3099148623919780240}
-  - component: {fileID: -8563114811102580185}
-  - component: {fileID: 7143371480449520894}
+  - component: {fileID: 2049887344460169827}
+  - component: {fileID: 2049887344460169826}
+  - component: {fileID: 2049887344460169829}
+  - component: {fileID: -2769697160851319599}
+  - component: {fileID: 5082571405538414396}
   m_Layer: 8
-  m_Name: InvaderC
-  m_TagString: Destrutivel
+  m_Name: InvaderA-Indestrutivel
+  m_TagString: Indestrutivel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9023342515860092397
+--- !u!4 &2049887344460169827
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6801109863848157136}
+  m_GameObject: {fileID: 2049887344460169828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,13 +34,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3242906070101617164
+--- !u!212 &2049887344460169826
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6801109863848157136}
+  m_GameObject: {fileID: 2049887344460169828}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 114abd51dbd1a7444813b43c6360f207, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: fab0b150b88cb9a48bb4635032ed223f, type: 3}
+  m_Color: {r: 0.9245283, g: 0.87740403, b: 0.505874, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -84,17 +84,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &3099148623919780240
+--- !u!95 &2049887344460169829
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6801109863848157136}
+  m_GameObject: {fileID: 2049887344460169828}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9124d512fef81cd4d8e9a8d7f2162b93, type: 2}
+  m_Controller: {fileID: 9100000, guid: d62608a6b0878c34cbdf12d486f087c1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -103,27 +103,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-8563114811102580185
+--- !u!114 &-2769697160851319599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6801109863848157136}
+  m_GameObject: {fileID: 2049887344460169828}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40ba35f6a9b400242bb4afc7769cd178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fire: {fileID: 0}
+  fire: {fileID: 5587552943634206772, guid: 9eca0b0d14fe7594882ecbd05fdc7373, type: 3}
   cadencia: 1.5
---- !u!61 &7143371480449520894
+  vidaInvasor: 10
+--- !u!61 &5082571405538414396
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6801109863848157136}
+  m_GameObject: {fileID: 2049887344460169828}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}

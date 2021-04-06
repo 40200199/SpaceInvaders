@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -8563114811102580185}
   - component: {fileID: 7143371480449520894}
   m_Layer: 8
-  m_Name: InvaderC
-  m_TagString: Destrutivel
+  m_Name: InvaderC-Indestrutivel
+  m_TagString: Indestrutivel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 114abd51dbd1a7444813b43c6360f207, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9245283, g: 0.87740403, b: 0.505874, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fire: {fileID: 0}
   cadencia: 1.5
+  vidaInvasor: 10
 --- !u!61 &7143371480449520894
 BoxCollider2D:
   m_ObjectHideFlags: 0
